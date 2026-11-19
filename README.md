@@ -43,6 +43,8 @@ Open the local URL printed by Vite in a browser.
 
 Card and set data are provided by the [TCGdex REST API](https://tcgdex.dev/rest). The application uses TCGdex's English API endpoints for card lists, set lists, filtered lists, and individual card details.
 
+The frontend is built with JavaScript (JSX) and React, using Vite. It parses the API's JSON responses and displays fields such as card name, image, set name, card number, rarity, and category.
+
 ---
 
 ## Português
@@ -83,3 +85,5 @@ Abra no navegador o URL local apresentado pelo Vite.
 ### Fonte dos dados
 
 Os dados das cartas e coleções são fornecidos pela [API REST do TCGdex](https://tcgdex.dev/rest). A aplicação utiliza os endpoints em inglês do TCGdex para listas de cartas, coleções, resultados filtrados e detalhes individuais das cartas.
+
+O front-end é desenvolvido em JavaScript (JSX) com React, usando Vite. Analisa as respostas JSON da API e apresenta campos como o nome da carta, imagem, nome da coleção, número, raridade e categoria.
