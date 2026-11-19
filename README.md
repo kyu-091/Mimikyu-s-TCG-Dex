@@ -1,83 +1,85 @@
 # Mimikyu's TCG Dex
 
-[English](#english) | [Português](#português)
+[English](#english) | [Português (Portugal)](#português-portugal)
+
+---
 
 ## English
 
-A searchable catalog for the Pokémon Trading Card Game, powered by the [TCGdex API](https://tcgdex.dev/).
+A searchable Pokémon Trading Card Game catalog powered by the [TCGdex API](https://tcgdex.dev/).
 
 ### Features
 
 - Browse the English card catalog with card images, names, set names, and card numbers.
 - Search by card name, set name, card number, or card ID.
-- Filter cards by set, type, card kind, rarity, stage, regulation mark, HP range, and format legality.
-- Sort cards by set and card number or alphabetically by name.
-- Open any card to view details, including effects, attacks, abilities, weaknesses, variants, and legality when available.
-- Load large result sets in batches with **Load more cards**.
+- Filter by set, type, card kind, rarity, stage, regulation mark, HP range, and format legality.
+- Sort cards by set and card number, or alphabetically by name.
+- Open a card to view details such as effects, attacks, abilities, weaknesses, variants, and legality.
+- Browse large result sets in batches with **Load more cards**.
 
-The catalog and set list are loaded from TCGdex. Full card details are requested only when a card is opened. An internet connection is required, and no API key is needed.
+The card catalog and set list come from TCGdex. Full card details are loaded when a card is opened. An internet connection is required, and no API key is needed.
 
 ### Getting started
 
-Install [Node.js](https://nodejs.org/) and npm. Then, from the `MimikyuTCGDex` project directory, run:
+Install [Node.js](https://nodejs.org/) and npm, then run the following commands from the project directory:
 
 ```sh
 npm install
 npm run dev
 ```
 
-Open the local URL printed by Vite in your browser.
+Open the local URL printed by Vite in a browser.
 
 ### Available scripts
 
 | Command | Description |
 | --- | --- |
-| `npm run dev` | Start the local development server. |
-| `npm run build` | Create a production build in `dist/`. |
-| `npm run preview` | Preview the production build locally. |
-| `npm run lint` | Run ESLint. |
+| `npm run dev` | Start the local development server |
+| `npm run build` | Create a production build in `dist/` |
+| `npm run preview` | Preview the production build locally |
+| `npm run lint` | Run ESLint |
 
 ### Data source
 
-Card and set data are provided by the [TCGdex REST API](https://tcgdex.dev/rest). The application uses the English API endpoints for card lists, set lists, filtered searches, and individual card details.
+Card and set data are provided by the [TCGdex REST API](https://tcgdex.dev/rest). The application uses TCGdex's English API endpoints for card lists, set lists, filtered lists, and individual card details.
 
 ---
 
 ## Português
 
-Um catálogo pesquisável do Pokémon Trading Card Game, desenvolvido com a [API do TCGdex](https://tcgdex.dev/).
+Um catálogo pesquisável do Jogo de Cartas Colecionáveis Pokémon fornecido pela [API TCGdex](https://tcgdex.dev/).
 
 ### Funcionalidades
 
-- Navegue pelo catálogo em inglês com imagens, nomes das cartas, nomes das coleções e números das cartas.
-- Pesquise pelo nome da carta, nome da coleção, número da carta ou ID da carta.
-- Filtre cartas por coleção, tipo, categoria, raridade, estágio, símbolo de regulação, faixa de PS e legalidade em formatos.
-- Ordene cartas por coleção e número ou alfabeticamente pelo nome.
-- Abra qualquer carta para ver detalhes, incluindo efeitos, ataques, habilidades, fraquezas, variantes e legalidade, quando disponíveis.
-- Carregue resultados grandes em lotes com **Load more cards**.
+- Consultar o catálogo de cartas em inglês com imagens, nomes, nomes das coleções e números das cartas.
+- Pesquisar pelo nome da carta, nome da coleção, número da carta ou ID da carta.
+- Filtrar por coleção, tipo, categoria, raridade, fase, marca de regulamentação, intervalo de PS e legalidade em formatos.
+- Ordenar as cartas por coleção e número ou alfabeticamente pelo nome.
+- Abrir uma carta para ver detalhes como efeitos, ataques, habilidades, fraquezas, variantes e legalidade.
+- Consultar conjuntos grandes de resultados em lotes com **Load more cards**.
 
-O catálogo e a lista de coleções são carregados pelo TCGdex. Os detalhes completos são solicitados somente ao abrir uma carta. É necessário ter conexão com a internet e não é necessária nenhuma chave de API.
+O catálogo de cartas e a lista de coleções são obtidos através do TCGdex. Os detalhes completos são carregados ao abrir uma carta. É necessária uma ligação à Internet e não é necessária nenhuma chave de API.
 
-### Como começar
+### Primeiros passos
 
-Instale o [Node.js](https://nodejs.org/) e o npm. Em seguida, execute os seguintes comandos no diretório do projeto `MimikyuTCGDex`:
+Instale o [Node.js](https://nodejs.org/) e o npm e execute os seguintes comandos na pasta do projeto:
 
 ```sh
 npm install
 npm run dev
 ```
 
-Abra no navegador o endereço local exibido pelo Vite.
+Abra no navegador o URL local apresentado pelo Vite.
 
 ### Scripts disponíveis
 
 | Comando | Descrição |
 | --- | --- |
-| `npm run dev` | Inicia o servidor local de desenvolvimento. |
-| `npm run build` | Cria a versão de produção na pasta `dist/`. |
-| `npm run preview` | Visualiza localmente a versão de produção. |
-| `npm run lint` | Executa o ESLint. |
+| `npm run dev` | Iniciar o servidor local de desenvolvimento |
+| `npm run build` | Criar uma versão de produção em `dist/` |
+| `npm run preview` | Pré-visualizar localmente a versão de produção |
+| `npm run lint` | Executar o ESLint |
 
 ### Fonte dos dados
 
-Os dados das cartas e coleções são fornecidos pela [TCGdex REST API](https://tcgdex.dev/rest). A aplicação utiliza os endpoints da API em inglês para listas de cartas, listas de coleções, pesquisas filtradas e detalhes individuais das cartas.
+Os dados das cartas e coleções são fornecidos pela [API REST do TCGdex](https://tcgdex.dev/rest). A aplicação utiliza os endpoints em inglês do TCGdex para listas de cartas, coleções, resultados filtrados e detalhes individuais das cartas.
