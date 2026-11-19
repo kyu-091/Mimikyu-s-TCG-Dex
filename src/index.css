@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'JetBrainsMono';
+    src: url('./assets/JetBrainsMono.ttf');
+}
+
+body {
+    background-color: #2e2e2e;
+    font-family: 'JetBrainsMono', monospace;
+}
